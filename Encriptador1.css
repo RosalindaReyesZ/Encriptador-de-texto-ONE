@@ -1,0 +1,151 @@
+*{
+    background: #e0e4f0;
+  
+}
+
+.logo{
+   display: block;
+
+}
+
+.Nina{
+    display: block;
+    margin: auto;
+
+    
+}
+
+.text-area{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    
+
+    border: none;
+    
+    text-transform: lowercase;
+    font-family:'Segoe UI';
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+
+::placeholder { color: #f753ad;}
+    .text-area:focus{
+        outline: none;
+    }
+
+    .informacion{
+        text-align: center;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+
+        color: #808aff;
+    }
+
+
+ 
+    .botones{
+        flex-direction: row;
+        padding: 1.5rem;
+    }
+    
+
+    .boton-encriptar{
+        width: 49%;
+        padding: 1.5rem;
+        background: #eb75b6;
+        border-radius: 24px;
+        
+        order: 0;
+        flex-grow: 0;
+        border: none;
+        color: white; 
+        
+        border-color: #eb75b6;
+        color: #fff;
+        box-shadow: 0 0 40px 40px #eb75b6 inset, 0 0 0 0 #eb75b6;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+    }
+
+    .boton-encriptar:hover{
+        box-shadow: 0 0 10px 0 #eb75b6 inset, 0 0 10px 4px #eb75b6;
+    }
+
+
+    .boton-desencriptar{
+       
+        width: 49%;
+        padding: 1.5rem;
+        background: #eb75b6;
+        border-radius: 24px;
+      
+        order: 1;
+        flex-grow: 0;
+        border: none;
+        color: white;
+
+        border-color: #eb75b6;
+        color: #fff;
+        box-shadow: 0 0 40px 40px #eb75b6 inset, 0 0 0 0 #eb75b6;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+    }
+
+    
+    .boton-desencriptar:hover{
+        box-shadow: 0 0 10px 0 #eb75b6 inset, 0 0 10px 4px #eb75b6;
+    }
+
+    .mensaje{
+        width: 100%;
+        height: 18.8125rem;
+       
+        background: #FFFFFF;
+
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 32px;
+
+        border-color: #f753ad;
+
+        text-align: center;
+        font-size: large;
+    }
+
+    .mensaje:focus{
+        outline: none;
+    }
+
+
+    .copiar{
+        display: block;
+        margin: auto;
+        padding: 1.5rem;
+        width: 21rem;
+        
+        align-items: center;
+        gap: 0.5rem;
+       
+        background: #808aff;
+        border: none;
+        border-radius: 24px;
+        color: white;
+
+        color: #fff;
+        box-shadow: 0 0 40px 40px #808aff inset, 0 0 0 0 #808aff;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;   
+    }
+
+.copiar:hover{
+    box-shadow: 0 0 10px 0 #808aff inset, 0 0 10px 4px #808aff;
+}
+
+
+        
+
